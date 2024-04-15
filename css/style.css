@@ -65,16 +65,16 @@ section.jumbo div article:last-child{
 
 /* main
  */
-main{
+.first_main{
     margin: 0 auto;
     width: 55%;
 }
 
-main section:nth-last-of-type(1){
+main section:nth-of-type(1){
     padding-top: 50px;
 }
 
-main section:nth-last-of-type(1) h2{
+main section:nth-of-type(1) h2{
     padding-bottom: 50px;
 }
 
@@ -85,7 +85,7 @@ main section:nth-last-of-type(1) h2{
 }
 
 .single_plane{
-    width: 30%;
+    width: calc((100% / 3) - 1rem);
     height: 100%;
     border: 2px solid black;
     padding: 10px;
@@ -140,8 +140,7 @@ article.partner div:first-child{
 .operation_business article{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    /* padding: 20px; */
+    width: calc((100% / 3) - 1rem);
 }
 
 .operation_business article div img{
@@ -151,5 +150,114 @@ article.partner div:first-child{
 
 .title_team{
     padding-top: 60px;
+    padding-bottom: 60px;
     font-size: 3rem;
+}
+
+/* sponsor */
+
+.sponsor{
+    display: flex;
+}
+
+.sponsor_four,
+.sponsor_four_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.sponsor_four div,
+.sponsor_four_second div{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor_four div img,
+.sponsor_four_second div img{
+    width: 50%;
+    filter:invert(1);
+}
+
+.sponsor_four div:nth-of-type(1){
+    background-color: #a2d39b;
+}
+
+
+.sponsor_four div:nth-of-type(2){
+    background-color: #61082b;
+}
+
+.sponsor_four div:nth-of-type(3){
+    background-color: #0093ce;
+}
+
+.sponsor_four div:nth-of-type(4){
+    background-color: #ff1c1c;
+}
+
+.sponsor_four_second div:nth-of-type(1){
+    background-color: #d5001f;
+}
+
+.sponsor_four_second div:nth-of-type(2){
+    background-color: #b4d0e7;
+}
+
+.sponsor_four_second div:nth-of-type(3){
+    background-color: #0d2481;
+}
+
+.sponsor_four_second div:nth-of-type(4){
+    background-color: #ffd830;
+}
+
+div.sponsor_center{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+div.sponsor_center img{
+    width: 200px;
+    padding-bottom: 50px;
+}
+div.sponsor_center p{
+    padding-top: 100px;
+}
+
+section.dropbox_prova{
+    background-color: #b4d0e7;
+}
+.main_stretch{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    padding: 50px 0 100px 0;
+
+}
+section.dropbox_prova h1{
+    font-size: 2rem;
+}
+
+.domande_frequenti{
+    padding: 100px 0 100px 0;
+    font-size: 2.5rem;
+}
+.padding_p p{
+    padding: 50px 0 50px 0;
+}
+
+.open_domande{
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
 }
