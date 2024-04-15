@@ -265,6 +265,7 @@ section.dropbox_prova h1{
 /* footer */
 
 footer{
+    margin-top: 200px;
     background-color: black;
 }
 .footer_section{
@@ -297,4 +298,9 @@ footer{
 .nav_footer ul li{
     padding: 10px 0 10px 0;
 
+}
+
+.footer_section p{
+    color: white;
+    padding-top: 15px;
 }
