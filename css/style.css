@@ -61,3 +61,42 @@ section.jumbo div article:last-child{
     padding-top: 30px;
 }
 
+/* main
+ */
+main{
+    margin: 0 auto;
+    width: 55%;
+}
+
+main section:nth-last-of-type(1){
+    padding-top: 50px;
+}
+
+main section:nth-last-of-type(1) h2{
+    padding-bottom: 50px;
+}
+
+.box_plane{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.single_plane{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.box_plane_fullspace{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.box_plane_fullspace > div:last-child{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
