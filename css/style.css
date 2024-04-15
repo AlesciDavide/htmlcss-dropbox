@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: "Open Sans", sans-serif;
+}
 li{
     list-style-type: none;
     padding-right: 15px;
@@ -51,7 +53,7 @@ section.jumbo div article:first-child{
 }
 
 section.jumbo article > img {
-    width: 600px;
+    width: 100%;
 }
 
 section.jumbo div article:last-child{
@@ -86,6 +88,7 @@ main section:nth-last-of-type(1) h2{
     width: 30%;
     height: 100%;
     border: 2px solid black;
+    padding: 10px;
 }
 
 .box_plane_fullspace{
@@ -100,3 +103,53 @@ main section:nth-last-of-type(1) h2{
     border-top: 2px solid black;
 }
 
+/* partner */
+
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+article.partner div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+article.partner div:first-child{
+    width: 60%;
+    object-fit: cover;
+}
+
+
+/* operazioni con dropbox */
+
+.title_operation{
+    padding-top: 50px;
+    font-size: 3rem;
+}
+
+.operation_business{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operation_business article{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* padding: 20px; */
+}
+
+.operation_business article div img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.title_team{
+    padding-top: 60px;
+    font-size: 3rem;
+}
