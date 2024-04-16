@@ -106,11 +106,11 @@ section.jumbo div article:last-child div {
 
 
 
-/* main
- */
+/* main */
+
 .first_main {
     margin: 0 auto;
-    width: 55%;
+    width: 50%;
 }
 
 main.first_main section:nth-of-type(1) {
@@ -132,17 +132,17 @@ main.first_main section:nth-of-type(1) {
 }
 
 .single_plane {
-    width: calc((100% / 3) - 1rem);
+    width: calc((321px) - 1%);
     border: 1px solid rgb(109, 109, 109);
     padding-bottom: 10px;
+    margin-right: 5px;
 }
 
 .single_plane h3 {
     display: flex;
     justify-content: center;
-    font-size: .8rem;
+    font-size: 1.1rem;
     line-height: 100%;
-    padding: 5px 0;
 }
 
 
@@ -152,7 +152,7 @@ main.first_main section:nth-of-type(1) {
 
 .single_plane p {
     padding: 15px 20px 0 10px;
-    font-size: .7rem;
+    font-size: .9rem;
 }
 
 .single_plane div {
@@ -161,6 +161,11 @@ main.first_main section:nth-of-type(1) {
     padding: 30px;
     flex-direction: column;
 }
+
+.single_plane div:last-child{
+    padding-top: 50px;
+}
+
 
 .single_plane div button {
     padding: 10px 20px;
