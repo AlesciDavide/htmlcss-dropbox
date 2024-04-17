@@ -16,7 +16,6 @@ li {
 
 hr {
     color: #c2c2c2;
-
 }
 
 ul,
@@ -29,6 +28,7 @@ nav {
 
 header section nav img {
     padding-right: 30px;
+    padding-left: 10px;
 }
 
 header section:first-child {
@@ -53,7 +53,7 @@ section.jumbo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: center;
+    
 }
 
 section.jumbo div {
@@ -83,6 +83,7 @@ section.jumbo div article:last-child {
     padding-top: 30px;
     position: relative;
     top: 60px;
+    width: 1080px;
 }
 
 section.jumbo div article:last-child div {
@@ -111,9 +112,10 @@ section.jumbo div article:last-child div {
 .first_main {
     margin: 0 auto;
     width: 50%;
+    width: 1000px;
 }
 
-main.first_main section:nth-of-type(1) {
+section.first_main section:nth-of-type(1) {
     padding-top: 150px;
 }
 
@@ -132,7 +134,7 @@ main.first_main section:nth-of-type(1) {
 }
 
 .single_plane {
-    width: calc((321px) - 1%);
+    width: calc((100% / 3) - 2%);
     border: 1px solid rgb(109, 109, 109);
     padding-bottom: 10px;
     margin-right: 5px;
@@ -162,7 +164,7 @@ main.first_main section:nth-of-type(1) {
     flex-direction: column;
 }
 
-.single_plane div:last-child{
+.single_plane div:last-child {
     padding-top: 50px;
 }
 
@@ -343,7 +345,7 @@ article.partner div:last-child p {
     filter: invert(1);
 }
 
-.padding_color{
+.padding_color {
     background-color: #a2d39b;
     width: 16rem;
     aspect-ratio: 1 / 1;
@@ -421,6 +423,7 @@ div.sponsor_center {
     flex-direction: column;
     background-color: #f5f5f5;
     height: 36rem;
+    overflow: scroll;
 }
 
 div.sponsor_center img {
@@ -428,10 +431,11 @@ div.sponsor_center img {
     padding-bottom: 50px;
 }
 
-.linea_piccola_due{
+.linea_piccola_due {
     width: 40%;
     margin-top: 10px;
 }
+
 div.sponsor_center p {
     padding-top: 50px;
 }
@@ -450,7 +454,7 @@ section.dropbox_prova {
 
 }
 
-button.btn_business{
+button.btn_business {
     width: 30%;
     height: 10%;
     padding: 10px;
@@ -502,7 +506,6 @@ footer {
 
 div.nav_footer ul li{
     color: white;
-
 }
 
 .nav_footer ul {
