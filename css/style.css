@@ -18,9 +18,23 @@ hr {
     color: #c2c2c2;
 }
 
-ul,
-header section:first-child,
-nav {
+header section:first-child{
+    position: relative;
+}
+
+
+header section:first-child div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+nav,
+ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +45,7 @@ header section nav img {
     padding-left: 10px;
 }
 
-header section:first-child {
+header section:first-child div{
     display: flex;
     justify-content: space-between;
     height: 70px;
