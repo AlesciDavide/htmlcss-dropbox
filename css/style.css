@@ -18,10 +18,9 @@ hr {
     color: #c2c2c2;
 }
 
-header section:first-child{
+header section:first-child {
     position: relative;
 }
-
 
 header section:first-child div {
     display: flex;
@@ -34,7 +33,7 @@ header section:first-child div {
 }
 
 nav,
-ul{
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +44,7 @@ header section nav img {
     padding-left: 10px;
 }
 
-header section:first-child div{
+header section:first-child div {
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -67,7 +66,7 @@ section.jumbo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    padding-top: 70px;
 }
 
 section.jumbo div {
@@ -118,12 +117,9 @@ section.jumbo div article:last-child div {
     font-size: 1.1rem;
 }
 
-
-
-
 /* main */
 
-.position_icon{
+.position_icon {
     position: relative;
     top: 33px;
     right: 13px;
@@ -188,7 +184,6 @@ section.first_main section:nth-of-type(1) {
     padding-top: 50px;
 }
 
-
 .single_plane div button {
     padding: 10px 20px;
 }
@@ -220,7 +215,6 @@ section.first_main section:nth-of-type(1) {
     margin-top: 20px;
 }
 
-
 .display_inline {
     display: flex;
     padding-left: 20px;
@@ -229,7 +223,6 @@ section.first_main section:nth-of-type(1) {
 .check_self {
     align-self: center;
 }
-
 
 .box_plane_fullspace {
     display: flex;
@@ -375,14 +368,10 @@ article.partner div:last-child p {
     filter: invert(1);
 }
 
-
 .Padding_color_cont {
     background-color: #d1e9cd;
     aspect-ratio: 1 / 1;
 }
-
-
-
 
 .sponsor_four div:nth-of-type(2) {
     background-color: #61082b;
@@ -453,7 +442,6 @@ section.dropbox_prova {
     justify-self: center;
     justify-content: space-between;
     padding: 100px 0 100px 0;
-
 }
 
 button.btn_business {
@@ -490,15 +478,15 @@ section.dropbox_prova .main_stretch h1 {
     font-size: 1.2rem;
 }
 
-.hover_open_domande{
+.hover_open_domande {
     display: none;
 }
 
-button.open_domande:hover{
+button.open_domande:hover {
     background-color: #c2c2c2;
 }
 
-button.open_domande:hover + .hover_open_domande{
+button.open_domande:hover+.hover_open_domande {
     display: flex;
     background-color: #c2c2c2;
 }
@@ -522,7 +510,7 @@ footer {
     width: calc(15% - 2rem);
 }
 
-div.nav_footer ul li{
+div.nav_footer ul li {
     color: white;
 }
 
