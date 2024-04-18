@@ -151,7 +151,7 @@ h2.padding_bottom{
 .single_plane {
     width: calc((100% / 3) - 2%);
     border: 2px solid rgb(238, 238, 238);
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     margin-right: 5px;
 }
 
@@ -497,7 +497,7 @@ button.open_domande:hover {
 
 button.open_domande:hover+.hover_open_domande {
     display: flex;
-    background-color: #c2c2c2;
+    background-color: white;
 }
 
 /* footer */
